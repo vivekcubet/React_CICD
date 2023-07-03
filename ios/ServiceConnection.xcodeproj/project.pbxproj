@@ -12,6 +12,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		462C9B7B2A52FA20004E87E4 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 462C9B7A2A52FA1F004E87E4 /* AppCenter-Config.plist */; };
 		7699B88040F8A987B510C191 /* libPods-ServiceConnection-ServiceConnectionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ServiceConnection-ServiceConnectionTests.a */; };
 		7B1A4FBF0FC3419E87C74002 /* Inter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F320713CA0F14DA8A2CC15CB /* Inter.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -39,6 +40,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ServiceConnection/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ServiceConnection-ServiceConnectionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ServiceConnection-ServiceConnectionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-ServiceConnection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServiceConnection.debug.xcconfig"; path = "Target Support Files/Pods-ServiceConnection/Pods-ServiceConnection.debug.xcconfig"; sourceTree = "<group>"; };
+		462C9B7A2A52FA1F004E87E4 /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		4661A8F329C9AA3700B5A603 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		4661A8F429C9AA4100B5A603 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Entypo.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		4661A8F529C9AA7A00B5A603 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimpleLineIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				462C9B7A2A52FA1F004E87E4 /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* ServiceConnection */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ServiceConnectionTests */,
@@ -294,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				462C9B7B2A52FA20004E87E4 /* AppCenter-Config.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				7B1A4FBF0FC3419E87C74002 /* Inter.ttf in Resources */,
 			);
